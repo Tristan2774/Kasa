@@ -1,0 +1,57 @@
+.ErreurPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: #ff6060;
+}
+
+.ErreurPage h1,
+.ErreurPage h2 {
+  margin: 0;
+  text-align: center;
+}
+
+.ErreurPage h1 {
+  font-weight: 700;
+  font-size: 96px;
+  margin-bottom: 10px;
+}
+
+.ErreurPage h2 {
+  font-weight: inherit;
+  font-size: 18px;
+  margin-bottom: 130px;
+}
+
+.ErreurPage a {
+  color: inherit;
+  font-size: 14px;
+}
+
+@media (min-width: 1250px) {
+  .ErreurPage {
+    margin-bottom: 50px;
+  }
+
+  .ErreurPage h1 {
+    font-size: 290px;
+    margin-bottom: 66px;
+  }
+
+  .ErreurPage h2 {
+    font-size: 36px;
+    margin-bottom: 180px;
+  }
+
+  .ErreurPage h2 br {
+    display: none;
+  }
+
+  .ErreurPage a {
+    font-size: 18px;
+  }
+}

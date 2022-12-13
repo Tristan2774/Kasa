@@ -1,0 +1,52 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 20px 16px;
+}
+
+header .logo {
+  width: auto;
+  height: 47px;
+}
+
+header nav {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  text-decoration: none;
+  font-size: 12px;
+  color: #ff6060;
+  text-transform: uppercase;
+}
+
+header nav a {
+  display: inline-flex;
+  align-items: center;
+  height: 100%;
+  color: inherit;
+  text-decoration: inherit;
+  margin-left: 10px;
+}
+
+header nav a.active {
+  text-decoration: underline;
+}
+
+@media (min-width: 1250px) {
+  header {
+    padding: 40px 100px 20px;
+  }
+
+  header .logo {
+    height: 68px;
+  }
+
+  header nav {
+    font-size: 24px;
+    text-transform: unset;
+  }
+
+  header nav a {
+    margin-left: 57px;
+  }
+}

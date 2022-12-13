@@ -1,0 +1,96 @@
+.menuglobal {
+  width: 100%;
+  border-radius: 5px;
+  color: #ff6060;
+}
+
+.menuglobal[open] {
+  background: #f6f6f6;
+}
+
+.menuglobal > div {
+  padding: 15px 10px 10px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 12px;
+}
+
+.menuglobal summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: inherit;
+  height: 30px;
+  border-radius: 5px;
+  background: #ff6060;
+  padding: 0 7px 0 10px;
+  list-style: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 13px;
+  color: white;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.menuglobal summary svg {
+  height: 9px;
+  width: auto;
+}
+
+.menuglobal[open] summary svg {
+  transform: rotate(180deg);
+}
+
+.menuglobal.large {
+  border-radius: 5px;
+}
+
+.menuglobal.large summary {
+  border-radius: 5px;
+}
+
+@media (min-width: 1250px) {
+  .menuglobal {
+    border-radius: 10px;
+  }
+
+  .menuglobal > div {
+    padding: 20px;
+    font-size: 18px;
+  }
+
+  .menuglobal summary {
+    height: 52px;
+    border-radius: 10px;
+    padding: 0 12px 0 20px;
+    font-size: 18px;
+  }
+
+  .menuglobal summary svg {
+    height: 16px;
+  }
+
+  .menuglobal.large {
+    width: 1024px;
+    font-size: 24px;
+  }
+
+  .menuglobal.large > div {
+    font-size: 24px;
+  }
+
+  .menuglobal.large summary {
+    height: 47px;
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .menuglobal{
+    width: 582px;
+    border-radius: 10px;
+  }
+}

@@ -1,0 +1,41 @@
+.Apropos {
+  margin-bottom: 40px;
+}
+
+.Apropos .agencement {
+  height: 110px;
+  border-radius: 10px;
+  background: #ff6060;
+  overflow: hidden;
+  margin: 0 0 20px;
+}
+
+.Apropos .agencement img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  filter: brightness(0.7);
+}
+
+.Apropos .deroulant {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+@media (min-width: 1250px) {
+  .Apropos .agencement {
+    height: 225px;
+    border-radius: 25px;
+    margin: 0 0 35px;
+  }
+
+  .Apropos .deroulant {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+    
+  }
+}
